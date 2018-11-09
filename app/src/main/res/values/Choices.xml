@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place">
+        <item> P. NOVAL </item>
+        <item> ESPAÑA </item>
+        <item> LACSON </item>
+        <item> DAPITAN </item>
+        <item> INSIDE UST </item>
+    </string-array>
+
+    <string-array name="type">
+        <item> FILIPINO </item>
+        <item> KOREAN </item>
+        <item> AMERICAN </item>
+        <item> JAPANESE </item>
+        <item> ITALIAN </item>
+    </string-array>
+
+    <string-array name="budget">
+        <item> Below 150 </item>
+        <item> 151 - 300 </item>
+        <item> Above 300 </item>
+    </string-array>
+
+</resources>

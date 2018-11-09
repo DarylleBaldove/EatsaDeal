@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Eat\'s a Deal</string>
+    <color name="darkwhite">#F5F5F5</color>
+    <color name="white">#ffffff</color>
 </resources>

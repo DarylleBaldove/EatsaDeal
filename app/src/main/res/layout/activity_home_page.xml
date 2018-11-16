@@ -7,35 +7,40 @@
     android:background="@color/darkwhite"
     tools:context=".HomePage">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/textsize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="86dp"
-        android:text="Where do you want to eat?"
-        android:textSize="20sp" />
+        android:text="Where do you want to eat?" />
 
     <Spinner
 
         android:id="@+id/place"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
         android:layout_width="302dp"
         android:layout_height="36dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"></Spinner>
+        android:layout_marginTop="127dp"
+        android:background="@color/white"></Spinner>
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/textsize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp"
-        android:text="What type of food do you want to eat?"
-        android:textSize="20sp" />
+        android:text="What type of food do you want to eat?" />
 
     <Spinner
 
@@ -44,26 +49,29 @@
         android:layout_height="36dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"></Spinner>
+        android:layout_marginTop="240dp"
+        android:background="@color/white">
+    </Spinner>
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/textsize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="238dp"
-        android:text="How much is your budget?"
-        android:textSize="20sp" />
+        android:text="How much is your budget?" />
 
     <Spinner
 
         android:id="@+id/budget"
         android:layout_width="178dp"
-        android:layout_height="43dp"
+        android:layout_height="37dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="176dp"></Spinner>
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="185dp"
+        android:background="@color/white">></Spinner>
 
     <Button
         android:id="@+id/button"
@@ -73,7 +81,32 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="74dp"
         android:background="#d53b42"
+        android:onClick="generate"
         android:text="GENERATE"
         android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place"
+        android:layout_toEndOf="@+id/textView2"
+        app:srcCompat="@drawable/dropdown" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/type"
+        android:layout_toEndOf="@+id/textView2"
+        app:srcCompat="@drawable/dropdown" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/budget"
+        android:layout_alignEnd="@+id/budget"
+        app:srcCompat="@drawable/dropdown" />
 
 </RelativeLayout>

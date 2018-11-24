@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033256828323",
+    "firebase_url": "https://eatsadeal-ee5cc.firebaseio.com",
+    "project_id": "eatsadeal-ee5cc",
+    "storage_bucket": "eatsadeal-ee5cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033256828323:android:c32a199f861cce15",
+        "android_client_info": {
+          "package_name": "darylle.baldove.com.eatsadeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033256828323-nrk398baugnr3spurkj7jgpum1r5r8o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "darylle.baldove.com.eatsadeal",
+            "certificate_hash": "5ee7acb0f98cb389bf82498b1e1a194270a4be1a"
+          }
+        },
+        {
+          "client_id": "1033256828323-33am3ukrkk8srquhsakm7vd1qmgptbur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdai7IWwa7gXLjC6wYRXWfMXCCvuhprVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033256828323-33am3ukrkk8srquhsakm7vd1qmgptbur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

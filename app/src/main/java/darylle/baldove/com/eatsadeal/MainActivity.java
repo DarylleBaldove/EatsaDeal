@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
 
 
-    private static int SPLASH_TIME_OUT = 4000;
+    private static int SPLASH_TIME_OUT = 10000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

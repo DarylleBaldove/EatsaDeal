@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="place">
-        <item> P. NOVAL </item>
+        <item> P NOVAL </item>
         <item> ESPAÑA </item>
         <item> LACSON </item>
         <item> DAPITAN </item>
@@ -12,13 +12,15 @@
         <item> FILIPINO </item>
         <item> KOREAN </item>
         <item> AMERICAN </item>
+        <item> CHINESE </item>
         <item> JAPANESE </item>
+        <item> MEXICAN </item>
         <item> ITALIAN </item>
     </string-array>
 
     <string-array name="budget">
         <item> Below 150 </item>
-        <item> 151 - 300 </item>
+        <item> 151 TO 300 </item>
         <item> Above 300 </item>
     </string-array>
 

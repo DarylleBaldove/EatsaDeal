@@ -18,19 +18,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="123dp"
         android:text="Where do you want to eat?" />
 
-    <Spinner
+        <Spinner
 
-        android:id="@+id/place"
-        style="@style/Widget.AppCompat.DropDownItem.Spinner"
-        android:layout_width="302dp"
-        android:layout_height="36dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
-        android:background="@color/white"></Spinner>
+            android:id="@+id/place"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="302dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="168dp"
+            android:background="@drawable/roundedspnr"></Spinner>
+
+
 
     <TextView
         android:id="@+id/textView3"
@@ -39,19 +41,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="243dp"
         android:text="What type of food do you want to eat?" />
 
     <Spinner
 
         android:id="@+id/type"
         android:layout_width="302dp"
-        android:layout_height="36dp"
+        android:layout_height="43dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"
-        android:background="@color/white">
-    </Spinner>
+        android:layout_marginTop="290dp"
+        android:background="@drawable/roundedspnr"></Spinner>
 
     <TextView
         android:id="@+id/textView4"
@@ -60,53 +61,54 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="238dp"
+        android:layout_marginBottom="267dp"
         android:text="How much is your budget?" />
 
     <Spinner
-
         android:id="@+id/budget"
-        android:layout_width="178dp"
-        android:layout_height="37dp"
+        android:layout_width="186dp"
+        android:layout_height="42dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button"
-        android:layout_marginBottom="185dp"
-        android:background="@color/white">></Spinner>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="201dp"
+        android:background="@drawable/roundedspnr"></Spinner>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="189dp"
+        android:layout_width="311dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="74dp"
-        android:background="#d53b42"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/roundedbtn"
         android:onClick="generate"
         android:text="GENERATE"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/place"
-        android:layout_toEndOf="@+id/textView2"
+        android:layout_alignBottom="@+id/place"
+        android:layout_alignEnd="@+id/place"
         app:srcCompat="@drawable/dropdown" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/type"
-        android:layout_toEndOf="@+id/textView2"
+        android:layout_alignBottom="@+id/type"
+        android:layout_alignEnd="@+id/place"
         app:srcCompat="@drawable/dropdown" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
+        android:layout_width="36dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/budget"
         android:layout_alignEnd="@+id/budget"
+        android:layout_marginEnd="0dp"
         app:srcCompat="@drawable/dropdown" />
 
 </RelativeLayout>
